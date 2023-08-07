@@ -5,7 +5,7 @@ const UrlValidator = () => {
     let [disabled,setDisabled] = useState(false);
 
     const isValidateDomain = (d) => {
-       if(d.startsWith("www.")&&d.endsWith(".com")){
+       if(d.startsWith("www.") && d.endsWith(".com")) {
         return true;
     }
         return false;
