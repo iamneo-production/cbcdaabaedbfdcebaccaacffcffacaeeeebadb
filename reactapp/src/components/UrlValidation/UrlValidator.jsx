@@ -6,8 +6,8 @@ const UrlValidator = () => {
 
     const isValidateDomain = (d) => {
        if(d.startsWith("www.")&&d.endsWith(".com")){
-        
-       }
+        return true;
+    }
         return false;
     }
 
